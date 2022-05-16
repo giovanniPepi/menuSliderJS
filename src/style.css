@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(219, 202, 202);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20rem;
+}
+ul, li {
+  padding: 0;
+  list-style-type: none;
+  margin-left: 0; 
+  padding-left: 0; 
+}
+.container, .container2 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  font-size: 1.2rem;
+}
+.menuBtn, .menuBtn2{
+  font-size: inherit;
+}
+.menu, .menu2, .menuBtn, .menuBtn2 {
+  margin: 0;
+  background: rgb(93, 172, 222);
+  color: white;
+  border: 2px solid white;
+  flex-direction: column;
+  justify-content: center;
+}
+.menuItem {
+  width: 200px;
+  padding: .5rem;
+}
+.menu, .menu2 {
+  display: none;
+}
