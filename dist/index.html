@@ -1,69 +1,31 @@
-<head><script defer src="/main.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve '/home/a4/repos/menuSliderJS/src/index.html' in '/hom  e/a4/repos/menuSliderJS'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '/home/a4/repos/menuSliderJS/src  /index.html' in '/home/a4/repos/menuSliderJS'
-      at /home/a4/repos/menuSliderJS/node_modules/webpack/lib/Compilation.js:2016:28
-      at /home/a4/repos/menuSliderJS/node_modules/webpack/lib/NormalModuleFactory.js:798:13
-      at eval (eval at create (/home/a4/repos/menuSliderJS/node_modules/tapable/lib/HookCodeFa  ctory.js:33:10), <anonymous>:10:1)
-      at /home/a4/repos/menuSliderJS/node_modules/webpack/lib/NormalModuleFactory.js:270:22
-      at eval (eval at create (/home/a4/repos/menuSliderJS/node_modules/tapable/lib/HookCodeFa  ctory.js:33:10), <anonymous>:9:1)
-      at /home/a4/repos/menuSliderJS/node_modules/webpack/lib/NormalModuleFactory.js:434:22
-      at /home/a4/repos/menuSliderJS/node_modules/webpack/lib/NormalModuleFactory.js:120:11
-      at /home/a4/repos/menuSliderJS/node_modules/webpack/lib/NormalModuleFactory.js:670:25
-      at /home/a4/repos/menuSliderJS/node_modules/webpack/lib/NormalModuleFactory.js:855:8
-      at /home/a4/repos/menuSliderJS/node_modules/webpack/lib/NormalModuleFactory.js:975:5
-  
-  - Compilation.js:2016 
-    [menuSliderJS]/[webpack]/lib/Compilation.js:2016:28
-  
-  - NormalModuleFactory.js:798 
-    [menuSliderJS]/[webpack]/lib/NormalModuleFactory.js:798:13
-  
-  
-  - NormalModuleFactory.js:270 
-    [menuSliderJS]/[webpack]/lib/NormalModuleFactory.js:270:22
-  
-  
-  - NormalModuleFactory.js:434 
-    [menuSliderJS]/[webpack]/lib/NormalModuleFactory.js:434:22
-  
-  - NormalModuleFactory.js:120 
-    [menuSliderJS]/[webpack]/lib/NormalModuleFactory.js:120:11
-  
-  - NormalModuleFactory.js:670 
-    [menuSliderJS]/[webpack]/lib/NormalModuleFactory.js:670:25
-  
-  - NormalModuleFactory.js:855 
-    [menuSliderJS]/[webpack]/lib/NormalModuleFactory.js:855:8
-  
-  - NormalModuleFactory.js:975 
-    [menuSliderJS]/[webpack]/lib/NormalModuleFactory.js:975:5
-  
-  - child-compiler.js:169 
-    [menuSliderJS]/[html-webpack-plugin]/lib/child-compiler.js:169:18
-  
-  - Compiler.js:551 finalCallback
-    [menuSliderJS]/[webpack]/lib/Compiler.js:551:5
-  
-  - Compiler.js:577 
-    [menuSliderJS]/[webpack]/lib/Compiler.js:577:11
-  
-  - Compiler.js:1196 
-    [menuSliderJS]/[webpack]/lib/Compiler.js:1196:17
-  
-  
-  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
-    [menuSliderJS]/[tapable]/lib/Hook.js:18:14
-  
-  - Compiler.js:1192 
-    [menuSliderJS]/[webpack]/lib/Compiler.js:1192:33
-  
-  - Compilation.js:2787 finalCallback
-    [menuSliderJS]/[webpack]/lib/Compilation.js:2787:11
-  
-  - Compilation.js:3092 
-    [menuSliderJS]/[webpack]/lib/Compilation.js:3092:11
-  
-  
-</pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Slider</title>
+<script defer src="/main.js"></script></head>
+<body>
+  <nav class="container">
+    <button class="menuBtn">Menu - click</button>
+    <ul class ="menu">
+      <li class="menuItem">Item 1</li>
+      <li class="menuItem">Item 2</li>
+      <li class="menuItem">Item 3</li>
+      <li class="menuItem">Item 4</li>
+      <li class="menuItem">Item 5</li>
+    </ul>
+  </nav>
+  <nav class="container2">
+    <button class="menuBtn2">Menu - hover</button>
+    <ul class="menu2">
+      <li class="menuItem">Item 1</li>
+      <li class="menuItem">Item 2</li>
+      <li class="menuItem">Item 3</li>
+      <li class="menuItem">Item 4</li>
+      <li class="menuItem">Item 5</li>
+    </ul>
+  </nav>
+</body>
+</html>
